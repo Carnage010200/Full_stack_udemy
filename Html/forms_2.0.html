@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms (Формы)</title>
+</head>
+<body>
+
+	<form action="http://google.com">
+		
+		<p>
+			<label for="firstname">First name: </label>
+			<input required type="text" name="username" placeholder="Enter your name" id="firstname"> 
+		</p>
+
+		<p>
+			<label for="lastname">Last name: </label>
+			<input type="text" name="lastname" placeholder="Enter your lastname" id="lastname">
+		</p>
+
+		<p>
+			<label for="email">Email: </label>
+			<input required type="email" name="email" placeholder="Enter your email" id="email">
+		</p>
+
+		<p>
+			<label for="pass">Password: </label>
+			<input type="Password" name="userpassword" placeholder="Enter your password" id="pass">
+		</p>
+
+		<p>
+			<label for="check">Stay logged in: </label>
+			<input type="checkbox" id="check" name="logged">
+		</p>
+
+		<p>
+			<label for="man">male: </label>
+			<input type="radio" name="sex" id="man" value="male">
+		</p>
+
+		<p>
+			<label for="woman">female: </label>
+			<input type="radio" name="sex" id="woman" value="female">
+		</p>
+
+		<p>
+			<label for="color">Choose your favorite color: </label>
+			<input type="color" id="color" name="color">
+		</p>
+
+		<p>Choose your favorite animal: </p>
+
+		<p>
+			<select name="animal">
+				<option>Cat</option>
+				<option>Dog</option>
+				<option>Rat</option>
+			</select>
+		</p>
+
+		<p>
+			<label for="sub">Submit data: </label>
+			<input type="submit" value="Нажми!" id="sub">
+		</p>
+
+	</form>
+
+</body>
+</html>
